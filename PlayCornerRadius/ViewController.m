@@ -49,6 +49,7 @@ static inline CGRect XWRectMake(CGFloat x, CGFloat y, CGFloat width, CGFloat hei
     UIView *_nameLabel;
     UILabel *_aLabel;
     UIColor *_backColor;
+    NSMutableArray<UIView *> *_circles;
 }
 
 + (XWTestRoundedCell *)xw_cellWithTableView:(UITableView *__weak)tableView imageURL:(NSString *)imageURL{
@@ -112,6 +113,7 @@ static inline CGRect XWRectMake(CGFloat x, CGFloat y, CGFloat width, CGFloat hei
         label;
     });
     
+    _circles = [NSMutableArray arrayWithCapacity:10];
     for (int i = 0; i < 10; i ++) {
         UIView *littleCircle = [UIView new];
         littleCircle.layer.opaque = YES;
@@ -120,6 +122,7 @@ static inline CGRect XWRectMake(CGFloat x, CGFloat y, CGFloat width, CGFloat hei
         littleCircle.center = XWPointMake(110 + 7.5 + 20 * i, 30);
         [littleCircle xw_roundedCornerWithRadius:widthRatio(7.5) cornerColor:backColor];
         [self.contentView addSubview:littleCircle];
+        [_circles addObject:littleCircle];
     }
 }
 
@@ -145,6 +148,9 @@ static inline CGRect XWRectMake(CGFloat x, CGFloat y, CGFloat width, CGFloat hei
     self.contentView.backgroundColor = color;
     [_headerView xw_roundedCornerWithCornerRadii:XWSizeMake(40, 40) cornerColor:color corners:UIRectCornerAllCorners borderColor:[UIColor redColor] borderWidth:widthRatio(2)];
     [_aLabel xw_roundedCornerWithRadius:widthRatio(15) cornerColor:color corners:UIRectCornerTopLeft | UIRectCornerBottomRight];
+    [_circles enumerateObjectsUsingBlock:^(UIView * _Nonnull littleCircle, NSUInteger idx, BOOL * _Nonnull stop) {
+        [littleCircle xw_roundedCornerWithRadius:widthRatio(7.5) cornerColor:color];
+    }];
 }
 
 @end
