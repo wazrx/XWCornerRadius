@@ -14,21 +14,15 @@
 		3B8FB51E1E2F4E5800EE101A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8FB51D1E2F4E5800EE101A /* Assets.xcassets */; };
 		3B8FB5211E2F4E5800EE101A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8FB51F1E2F4E5800EE101A /* LaunchScreen.storyboard */; };
 		3B8FB53F1E2F53FC00EE101A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B8FB53E1E2F53FC00EE101A /* 1.jpg */; };
-		3B948B151E30689A00E32812 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3B948AE41E30689A00E32812 /* LICENSE */; };
-		3B948B161E30689A00E32812 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AE51E30689A00E32812 /* README.md */; };
 		3B948B171E30689A00E32812 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AE81E30689A00E32812 /* YYCache.m */; };
 		3B948B181E30689A00E32812 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AEA1E30689A00E32812 /* YYDiskCache.m */; };
 		3B948B191E30689A00E32812 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AEC1E30689A00E32812 /* YYKVStorage.m */; };
 		3B948B1A1E30689A00E32812 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AEE1E30689A00E32812 /* YYMemoryCache.m */; };
-		3B948B1B1E30689A00E32812 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3B948AF01E30689A00E32812 /* LICENSE */; };
-		3B948B1C1E30689A00E32812 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AF11E30689A00E32812 /* README.md */; };
 		3B948B1D1E30689A00E32812 /* YYAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AF41E30689A00E32812 /* YYAnimatedImageView.m */; };
 		3B948B1E1E30689A00E32812 /* YYFrameImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AF61E30689A00E32812 /* YYFrameImage.m */; };
 		3B948B1F1E30689A00E32812 /* YYImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AF81E30689A00E32812 /* YYImage.m */; };
 		3B948B201E30689A00E32812 /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AFA1E30689A00E32812 /* YYImageCoder.m */; };
 		3B948B211E30689A00E32812 /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AFC1E30689A00E32812 /* YYSpriteSheetImage.m */; };
-		3B948B221E30689A00E32812 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 3B948AFE1E30689A00E32812 /* LICENSE */; };
-		3B948B231E30689A00E32812 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 3B948AFF1E30689A00E32812 /* README.md */; };
 		3B948B241E30689A00E32812 /* _YYWebImageSetter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948B031E30689A00E32812 /* _YYWebImageSetter.m */; };
 		3B948B251E30689A00E32812 /* CALayer+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948B051E30689A00E32812 /* CALayer+YYWebImage.m */; };
 		3B948B261E30689A00E32812 /* MKAnnotationView+YYWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B948B071E30689A00E32812 /* MKAnnotationView+YYWebImage.m */; };
@@ -57,8 +51,6 @@
 		3B8FB5201E2F4E5800EE101A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B8FB5221E2F4E5800EE101A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B8FB53E1E2F53FC00EE101A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
-		3B948AE41E30689A00E32812 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3B948AE51E30689A00E32812 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B948AE71E30689A00E32812 /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
 		3B948AE81E30689A00E32812 /* YYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCache.m; sourceTree = "<group>"; };
 		3B948AE91E30689A00E32812 /* YYDiskCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDiskCache.h; sourceTree = "<group>"; };
@@ -67,8 +59,6 @@
 		3B948AEC1E30689A00E32812 /* YYKVStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYKVStorage.m; sourceTree = "<group>"; };
 		3B948AED1E30689A00E32812 /* YYMemoryCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYMemoryCache.h; sourceTree = "<group>"; };
 		3B948AEE1E30689A00E32812 /* YYMemoryCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYMemoryCache.m; sourceTree = "<group>"; };
-		3B948AF01E30689A00E32812 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3B948AF11E30689A00E32812 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B948AF31E30689A00E32812 /* YYAnimatedImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAnimatedImageView.h; sourceTree = "<group>"; };
 		3B948AF41E30689A00E32812 /* YYAnimatedImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAnimatedImageView.m; sourceTree = "<group>"; };
 		3B948AF51E30689A00E32812 /* YYFrameImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFrameImage.h; sourceTree = "<group>"; };
@@ -79,8 +69,6 @@
 		3B948AFA1E30689A00E32812 /* YYImageCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYImageCoder.m; sourceTree = "<group>"; };
 		3B948AFB1E30689A00E32812 /* YYSpriteSheetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSpriteSheetImage.h; sourceTree = "<group>"; };
 		3B948AFC1E30689A00E32812 /* YYSpriteSheetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSpriteSheetImage.m; sourceTree = "<group>"; };
-		3B948AFE1E30689A00E32812 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		3B948AFF1E30689A00E32812 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3B948B021E30689A00E32812 /* _YYWebImageSetter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _YYWebImageSetter.h; sourceTree = "<group>"; };
 		3B948B031E30689A00E32812 /* _YYWebImageSetter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _YYWebImageSetter.m; sourceTree = "<group>"; };
 		3B948B041E30689A00E32812 /* CALayer+YYWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+YYWebImage.h"; sourceTree = "<group>"; };
@@ -173,8 +161,6 @@
 		3B948AE31E30689A00E32812 /* YYCache */ = {
 			isa = PBXGroup;
 			children = (
-				3B948AE41E30689A00E32812 /* LICENSE */,
-				3B948AE51E30689A00E32812 /* README.md */,
 				3B948AE61E30689A00E32812 /* YYCache */,
 			);
 			path = YYCache;
@@ -198,8 +184,6 @@
 		3B948AEF1E30689A00E32812 /* YYImage */ = {
 			isa = PBXGroup;
 			children = (
-				3B948AF01E30689A00E32812 /* LICENSE */,
-				3B948AF11E30689A00E32812 /* README.md */,
 				3B948AF21E30689A00E32812 /* YYImage */,
 			);
 			path = YYImage;
@@ -225,8 +209,6 @@
 		3B948AFD1E30689A00E32812 /* YYWebImage */ = {
 			isa = PBXGroup;
 			children = (
-				3B948AFE1E30689A00E32812 /* LICENSE */,
-				3B948AFF1E30689A00E32812 /* README.md */,
 				3B948B001E30689A00E32812 /* YYWebImage */,
 			);
 			path = YYWebImage;
@@ -354,13 +336,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B948B1B1E30689A00E32812 /* LICENSE in Resources */,
 				3B8FB5211E2F4E5800EE101A /* LaunchScreen.storyboard in Resources */,
 				3B8FB53F1E2F53FC00EE101A /* 1.jpg in Resources */,
-				3B948B221E30689A00E32812 /* LICENSE in Resources */,
 				3B8FB51E1E2F4E5800EE101A /* Assets.xcassets in Resources */,
 				3B8FB51C1E2F4E5800EE101A /* Main.storyboard in Resources */,
-				3B948B151E30689A00E32812 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,11 +352,9 @@
 			files = (
 				3B948B191E30689A00E32812 /* YYKVStorage.m in Sources */,
 				3B8FB5191E2F4E5800EE101A /* ViewController.m in Sources */,
-				3B948B1C1E30689A00E32812 /* README.md in Sources */,
 				3B948B1F1E30689A00E32812 /* YYImage.m in Sources */,
 				3B948B181E30689A00E32812 /* YYDiskCache.m in Sources */,
 				3B948B201E30689A00E32812 /* YYImageCoder.m in Sources */,
-				3B948B231E30689A00E32812 /* README.md in Sources */,
 				3B948B1D1E30689A00E32812 /* YYAnimatedImageView.m in Sources */,
 				3B948B271E30689A00E32812 /* UIButton+YYWebImage.m in Sources */,
 				3B948B251E30689A00E32812 /* CALayer+YYWebImage.m in Sources */,
@@ -387,7 +364,6 @@
 				3B948B2C1E30689A00E32812 /* YYWebImageOperation.m in Sources */,
 				3B948B171E30689A00E32812 /* YYCache.m in Sources */,
 				3B948B211E30689A00E32812 /* YYSpriteSheetImage.m in Sources */,
-				3B948B161E30689A00E32812 /* README.md in Sources */,
 				3B948B291E30689A00E32812 /* UIImageView+YYWebImage.m in Sources */,
 				3BBC005D1E30CBC100EBA5CF /* UIView+XWAddForRoundedCorner.m in Sources */,
 				3B948B261E30689A00E32812 /* MKAnnotationView+YYWebImage.m in Sources */,

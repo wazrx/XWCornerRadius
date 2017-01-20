@@ -148,7 +148,7 @@ typedef UIImage * _Nullable (^YYWebImageTransformBlock)(UIImage *image, NSURL *u
  @param url         The image url (remote or local file path).
  @param from        Where the image came from.
  @param error       Error during image fetching.
- @param finished    If the operation is cancelled, this value is NO, otherwise YES.
+ @param stage    If the operation is cancelled, this value is NO, otherwise YES.
  */
 typedef void (^YYWebImageCompletionBlock)(UIImage * _Nullable image,
                                           NSURL *url,
